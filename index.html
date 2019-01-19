@@ -1,506 +1,398 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  	<meta charset="utf-8">
-	<title>Insowe</title>
-	<meta name="description" content="">
-  	<meta name="keywords" content="">
-	<meta name="robots" content="">
-	<link href="css/css" rel="stylesheet" type="text/css">
-	<link href="css/reset.css" rel="stylesheet" type="text/css">
-	<link href="css/960.css" rel="stylesheet" type="text/css">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
-	
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/smooth-scroll.js"></script>
-	<script type="text/javascript" src="js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
-	<script type="text/javascript" src="js/quicksand.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="js/contactform.js"></script>
-	<script type="text/javascript" src="js/comman.js"></script>
+    <!-- meta data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="CACHE-CONTROL" CONTENT="NO-CACHE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta name="rating" content="general" />
+    <meta name="Keywords" content="" />
+    <meta name="Author" content="Insowe" />
+    <meta name="description" content="InsoweInsoweInsoweInsowe" />
+    <meta name="copyright" content="2017 © Insowe Inc. All Rights Reserved" />
+
+
+    <meta property="fb:app_id" content="">
+    <meta property="fb:pages" content="Insowe" />
+    <meta property="og:title" content="Insowe Home" />
+    <meta property="og:type" content="website" />
+    <meta property="og:rich_attachment" content="true"/>
+    <meta property="og:site_name" content="盈碩數位" />
+    <meta property="og:image" content="//tech.insowe.com/InsoweHome/img/logo_meta.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="960" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:url" content="https://www.insowe.com/" />
+    <meta property="og:description" content="盈碩數位有限公司" />
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+
+    <link rel="shortcut icon" href="//tech.insowe.com/InsoweHome/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" type="image/png" href="//tech.insowe.com/InsoweHome/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//tech.insowe.com/InsoweHome/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="//tech.insowe.com/InsoweHome/img/favicon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" type="image/png" href="//tech.insowe.com/InsoweHome/img/favicon-180x180.png" sizes="180x180">
+    <!-- /meta data -->
+
+    <!-- Title -->
+    <title>盈碩數位 Insowe</title>
+    <!-- /Title -->
+
+    <!-- Style -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+
+    <link rel="stylesheet" href="//tech.insowe.com/InsoweHome/css/style.css">
+    <!-- /Style -->
+
+    <!-- IE hack -->
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- /IE hack -->
 </head>
 <body>
-<div class="topbar"></div> 
-<div id="intro">
-	<div class="title">
-		<img src="img/logo.png">
-	</div>
-</div>
-<div id="undefined-sticky-wrapper" class="sticky-wrapper">
-	<nav class="" style="">
+    <div id="insowePreview"></div>
+    <div id="insoweHome">
+        <header id="header">
+	<div class="mask" onclick="app.toggleClass('header', 'active');"></div>
+	<a href="index.html" class="logo"><img src="img/logo.png" alt="insowe"></a>
+	<a href="javascript:;" class="ham pcminiHide pcHide" onclick="app.toggleClass('header', 'active');"><i class="fa fa-bars"></i></a>
+	<div class="navBox">
 		<ul>
-			<li><a href="#intro">home</a></li>
-			<li><a href="#work">work</a></li>
-			<li><a href="#services">services</a></li>
-			<li><a href="#about">about</a></li>
-			<li><a href="#contact">contact</a></li>
+			<li><a href="javascript:;" onclick="app.menuClick(this);" data-section="s2" tkey="insoweMenu2">services</a></li>
+			<li><a href="javascript:;" onclick="app.menuClick(this);" data-section="s3" tkey="insoweMenu3">work</a></li>
+			<li><a href="javascript:;" onclick="app.menuClick(this);" data-section="s5" tkey="insoweMenu5">about</a></li>
+			<li><a href="javascript:;" onclick="app.menuClick(this);" data-section="s6" tkey="insoweMenu6">members</a></li>
+			<li><a href="javascript:;" onclick="app.menuClick(this);" data-section="s8" tkey="insoweMenu8">contact</a></li>
+			<li><a id="changeLang" href="javascript:;" onclick="app.changeLang();" tkey="insoweLang"></a></li>
 		</ul>
-	</nav>
-</div>
-<div id="work">
-	<div class="container_16">
-		<div class="subheader">
-			<div class="subheader_line"></div><h2>recent work</h2><div class="subheader_line"></div>
+	</div>
+</header>
+        
+	<div class="main" id="index">
+		<div class="loadingMask">
+			<div class="logo_ani"></div>
 		</div>
-		<div class="gallery">
-				<dl class="group">
-					<dd>
-						<ul class="filter group"> 
-							<li class="current all"><a href="#">All</a></li> 
-							<li class="portal"><a href="#">Portal</a></li> 
-							<li class="design"><a href="#">Design</a></li> 
-							<li class="application"><a href="#">Application</a></li> 
-							<li class="weddig"><a href="#">Weddig</a></li> 
-							<li class="app"><a href="#">App</a></li> 
-							<li class="card"><a href="#">Card</a></li> 
-							<li class="print"><a href="#">Print</a></li> 
-						</ul> 
-					</dd>
-				</dl>
-				<ul class="portfolio group"> 
-					<li class="item" data-id="id-1" data-type="weddig">
-						<a href="img/work/wedding_1.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/wedding_1.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Open Show - A wedding website<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-2" data-type="design">
-						<a href="img/work/design_0.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_0.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Wikicomic - Front-end<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-3" data-type="design">
-						<a href="img/work/design_1.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_1.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Wikicomic - Front-end<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-4" data-type="design">
-						<a href="img/work/design_2.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_2.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Logdown - Theme<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-5" data-type="design">
-						<a href="img/work/design_3.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_3.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Logdown - Theme<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-6" data-type="design">
-						<a href="img/work/design_4.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_4.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Someone System - Front-end<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-7" data-type="design">
-						<a href="img/work/design_5.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_5.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Someone System - Front-end<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-8" data-type="design">
-						<a href="img/work/design_6.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_6.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Someone System - Front-end<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li> 
-					<li class="item" data-id="id-9" data-type="design">
-						<a href="img/work/design_7.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_7.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Zappos - Front-end<br>
-							<span class="ss_text">Web Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-10" data-type="design">
-						<a href="img/work/design_8.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/design_8.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Hello US! - Front-end<br>
-							<span class="ss_text">Web Development</span>
-						</p>
-					</li>					
+		<section class="s1">
+			<div class="titleBox">
+				<img src="img/s1_subTitle.png" alt="盈碩數位" class="subTitle">
+				<img src="img/s1_title.png" alt="imsowe" class="title">
+				<h1 tkey="insowe1">網站・系統・設計</h1>
+				<a href="javascript:;" class="scrollBtn"></a>
+			</div>
+			<div class="slider">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="http://merrychristmas2016.insowe.com/" class="sliderBox" target="_blank">
+								<img src="img/s1_slider1.png" alt="insoweGame">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://mirrorfiction.com/" class="sliderBox" target="_blank">
+								<img src="img/s1_slider2.jpg" alt="MirrorFiction">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.aetektec.com/" class="sliderBox" target="_blank">
+								<img src="img/s1_slider3.jpg" alt="AETEK">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="sliderFrame"></div>
+			</div>
+			<div class="stationary note mobileHide"><img class="imgAni" src="img/s1_note.png" alt="note"></div>
+			<div class="stationary keyboard"><img class="imgAni" src="img/s1_keyboard.png" alt="keyboard"></div>
+			<div class="stationary pens mobileHide padHide pcminiHide"><img class="imgAni" src="img/s1_pens.png" alt="pens"></div>
+			<div class="stationary coffee mobileHide padHide pcminiHide"><img class="imgAni" src="img/s1_coffee.png" alt="coffee"></div>
+			<div class="stationary phone mobileHide">
+				<img class="imgAni" src="img/s1_phone.png" alt="phone">
+				<img class="phoneInner active" src="img/s1_phone_inner1.png" alt="insoweGame">
+				<img class="phoneInner" src="img/s1_phone_inner2.png" alt="MirrorFiction">
+				<img class="phoneInner" src="img/s1_phone_inner3.png" alt="AETEK">
+			</div>
+			<div class="stationary glasses mobileHide"><img class="imgAni" src="img/s1_glasses.png" alt="glasses"></div>
+			<div class="stationary plant mobileHide padHide pcminiHide"><img class="imgAni" src="img/s1_plant.png" alt="plant"></div>
+			<div class="stationary canvas mobileHide padHide pcminiHide"><img class="imgAni" src="img/s1_canvas.png" alt="canvas"></div>
+			<div class="stationary mouse"><img class="imgAni" src="img/s1_mouse.png" alt="mouse"></div>
+			<div class="stationary book mobileHide"><img class="imgAni" src="img/s1_book.png" alt="book"></div>
+		</section>
+		<div class="insoweParallax">
+			<section class="s2 interval">
+				<h2 class="insoweItem title"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe2">s</span><span tkey="insowe3">erivces</span></h2>
+				<div class="insoweItem block">
+					<div class="blockTitle"><h3 tkey="insowe4">Visual Design</h3></div>
+					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
+						<p tkey="insowe5">From E-sports theme to parent-child theme; From graphic design to 3D modeling.<br/>We have diversified designed style and comprehensive design experience to meet all the needs and the spriit of brand.</p>
+					</div>
+					<img src="img/s2_canvas.png" alt="canvas">
+				</div>
+				<div class="insoweItem block">
+					<div class="blockTitle"><h3 tkey="insowe6">Web development</h3></div>
+					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
+						<p tkey="insowe7">We can customize the site according to the needs, whether it is web game, image website, e-commerce website, enterprise systems or various operating platforms.</p>
+					</div>
+					<img src="img/s2_keyboard.png" alt="keyboard">
+				</div>
+				<div class="insoweItem block">	
+					<div class="blockTitle"><h3 tkey="insowe8">Information security</h3></div>
+					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
+						<p tkey="insowe9">A security team led by a senior security expert, providing black and white box testing, penetration testing or a variety of offensive and defensive drills for you to protect customer information and enhance security.</p>
+					</div>
+				</div>
+			</section>
+			<section class="insoweItem s3 interval">
+				<h2 class="title"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe10">r</span><span tkey="insowe11">ecent work</span></h2>
+				<div class="content">
+					<div class="categoryMenu">
+						<a href="javascript:;" class="selectBtn pcHide" onclick="app.toggleClass('.s3 .categoryMenu ul','active');"><span class="selected" tkey="insowe12">All</span><i class="fa fa-caret-down"></i></a>
+						<ul>
+							<li class="categoryItem" v-for="(category, idx) in workData.category[lang]"><a href="javascript:;" v-bind:class="idx==0?'active':''" onClick="page.setCategory(this);" v-bind:data-category="workData.category.en[idx]=='All'?'work':workData.category.en[idx]" v-text="category"></a></li>
+						</ul>
+					</div>
+					<div class="workBox" data-mcs-theme="dark">
+						<div class="workWall">
+							<div class="work active" v-bind:class="setCategoryClass(work)" v-for="work in workData.work">
+								<img v-bind:src="'img/work/'+work.img" v-bind:alt="work.name">
+								<a v-bind:href="work.url==''?'javascript:page.setLightBoxImg(\''+work.bigImg+'\',\''+work.name+'\');':work.url" class="workMask" v-bind:target="work.url==''?'':'_blank'">
+									<div class="workInfo">
+										<p class="workTitle" v-text="work.name"></p>
+										<div class="workIcon">
+											<span class="fa-stack">
+											  <i class="far fa-circle fa-stack-2x"></i>
+											  <i class="fas fa-angle-right fa-stack-1x"></i>
+											</span>
+										</div>
+										<p class="categoryText" v-text="setCategoryName(work)"></p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+			
+		<!--<section class="s4 interval">
+		</section>-->
+		<section class="insoweItem s5 interval">
+			<div class="left">
+				<img src="img/s5_img.png" alt="">
+			</div>
+			<div class="right">
+				<h2 class="title" v-bind:class="lang=='tw'?'offsetT':''"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe13">a</span><span tkey="insowe14">bout</span></h2>
+				<div class="block">
+					<div class="blockTitle"><h3 tkey="insowe15">we are</h3></div>
+					<p class="content" tkey="insowe16">Here, a group of young people, average age 28, decided to stay in their hometown Taiwan, Tainan.Use our expertise to serve all of Taiwan's customers and even overseas customers.This is the first step of INSOWE.</p>
+					<br/>
+					<p class="content" tkey="insowe17">We have rich experience in website development to help clients effectively implement their ideas on their website.</p>
+					<br/>
+					<p class="content" tkey="insowe18">Any ideas you want to achieve? Any needs you want? Contact us!</p>
+				</div>
+			</div>
+		</section>
+		<section class="s6 interval">
+			<h2 class="insoweItem title"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe19">m</span><span tkey="insowe20">ember</span></h2>
+			<div class="memberInner">
+				<div class="insoweItem member">
+					<img src="img/s6_ijs.png" alt="Ijs" class="avatar">
+					<p class="name">Ijs</p>
+					<p class="job">Project Manager</p>
+					<p class="saying">這杯名為人生的酒，終究還是要不論清濁，獨自飲下</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_gagu.png" alt="Gagu" class="avatar">
+					<p class="name">Gagu</p>
+					<p class="job">Chief Front-end Engineer</p>
+					<p class="saying">我懶！我宅！我萌！<br/>(´・ω・`)</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_jc.png" alt="JC" class="avatar">
+					<p class="name">JC</p>
+					<p class="job">Chief Back-end Engineer</p>
+					<p class="saying">多想10秒鐘</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_gili.png" alt="Gili" class="avatar">
+					<p class="name">Gili</p>
+					<p class="job">Front-end Engineer & Designer</p>
+					<p class="saying">Everyday is a good day</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_ning.png" alt="ning" class="avatar">
+					<p class="name">Ning</p>
+					<p class="job">Chief Designer</p>
+					<p class="saying">人生好難，但我覺得可以</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_sandra.png" alt="Sandra" class="avatar">
+					<p class="name">Sandra</p>
+					<p class="job">Senior Front-end Engineer</p>
+					<p class="saying">C'est la vie</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_gundam.png" alt="Gundambox" class="avatar">
+					<p class="name">Gundambox</p>
+					<p class="job">Senior System Engineer</p>
+					<p class="saying">這不是Bug，是Feature！</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_joy.png" alt="Joy" class="avatar">
+					<p class="name">Joy</p>
+					<p class="job">Back-end Engineer</p>
+					<p class="saying">Hakuna Matata!</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_sars.png" alt="Sars" class="avatar">
+					<p class="name">SARS</p>
+					<p class="job">Project Manager</p>
+					<p class="saying">尊嚴不可賣，錢多多例外；需求不可少，錢不夠除外</p>
+				</div>
+				<div class="insoweItem member">
+					<img src="img/s6_ren.png" alt="Asaba Hayato" class="avatar">
+					<p class="name">Asaba Hayato</p>
+					<p class="job">Senior Back-end Engineer</p>
+					<p class="saying">不要可憐自己。一旦可憐自己，人生就是無止盡的噩夢</p>
+				</div>
+			</div>
+		</section>
+		<!--<section class="s7 interval">
+			<h2 class="insoweItem title"><span v-bind:class="lang=='tw'?'normalG':'bigG'">b</span>log</h2>
+			<a href="javascript:;" class="insoweItem blog">
+				<div class="left">
+					<img src="img/s7_blog.png" alt="blog">
+				</div>
+				<div class="right">
+					<div class="date">2017.12.11</div>
+					<div class="textBox">
+						<h3 class="blogTitle">ad excepturi quia sunt dolores nostrum minima corrupti ut expedita qui quo</h3>
+						<p class="blogContent">ut ducimus quisquam totam debitis reiciendis necessitatibus qui non quo saepe quos. ea libero aut quo consequuntur exercitationem qui perferendis ut. omnis aliquam aut natus iusto voluptatem sit eius tempore sint iure. ut dignissimos soluta esse sed veniam facere eius iusto maiores maiores ut doloribus dolorem. eligendi explicabo atque architecto est ea ducimus voluptatem possimus voluptas aut ducimus voluptatum</p>
+					</div>
+					<div class="tagBox">
+						<span class="tag">neque</span>
+						<span class="tag">facilis</span>
+						<span class="tag">quibusdam</span>
+					</div>
+				</div>
+			</a>
+			<a href="javascript:;" class="insoweItem blog">
+				<div class="left">
+					<img src="img/s7_blog.png" alt="blog">
+				</div>
+				<div class="right">
+					<div class="date">2017.12.11</div>
+					<div class="textBox">
+						<h3 class="blogTitle">maxime est recusandae delectus voluptas unde qui</h3>
+						<p class="blogContent">deleniti dicta placeat et ea ut voluptas sequi aut provident alias temporibus nihil et ab. voluptas assumenda reiciendis dolores architecto nostrum sit cumque nisi. maxime qui facilis qui porro sed ipsa ea facere neque velit quia beatae. animi eum ullam ipsam aut et quia maxime rerum rerum repellat accusantium rem occaecati molestiae. consequuntur commodi sit a. quia blanditiis quam at illo et nulla est ad culpa corrupti sint nam. voluptatibus quod adipisci quae corrupti eum placeat</p>
+					</div>
+					<div class="tagBox">
+						<span class="tag">velit</span>
+						<span class="tag">nemo</span>
+						<span class="tag">provident</span>
+					</div>
+				</div>
+			</a>
+			<a href="javascript:;" class="moreBtn">+ More</a>
+		</section>-->
+		<section class="insoweItem s8 interval">
+			<h2 class="title"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe21">c</span><span tkey="insowe22">ontact</span></h2>
+			<div class="contact">
+				<div class="contactInner">
+					<div class="insowetree mobileHide">
+						<img src="img/s8_tree.png" alt="insoweTree">
+					</div>
+					<p class="subTitle" tkey="insowe23">get in touch</p>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="this.onload=function(){page.contactResult()}"></iframe>
+					<form method="post" action="http://docs.google.com/forms/d/161Gu-GgaySzV9fapWxHi8WGHcCxFIeNLD_AoDxTfmAs/formResponse" target="hidden_iframe">
+						<div class="left">
+							<input class="userName" name="entry.199363611" id="entry_199363611" type="text" placeholder="Name">
+							<input class="userMail" name="entry.424810746" id="entry_424810746" type="email" placeholder="Email">
+						</div>
+						<div class="right">
+							<p class="text" tkey="insowe24">contact information</p>
+							<a href="mailto:info@insowe.com" class="mail">info@insowe.com</a>
+							<a href="javascript:;" class="fb">facebook.com/insowe</a>
+						</div>
+						<textarea class="userMSG" name="entry.2114441792" id="entry_2114441792" placeholder="Message"></textarea>
+						<input type="submit" name="submit" v-bind:value="lang=='tw'?'聯絡我們!':'Contact us!'" class="submitBtn"></a>
+						<span class="formMsg"></span>
+					</form>
+				</div>
+			</div>
+		</section>
+		<div class="insoweLightBox">
+			<div class="mask" onclick="page.hideWorkImg();"></div>
+			<div class="content">
+				<a href="javascript:;" class="hideBth" onClick="page.hideWorkImg();">
+					<i class="fas fa-times"></i>
+				</a>
+				<div class="inner blog">
 					
-					<li class="item" data-id="id-12" data-type="application">
-						<a href="img/work/dev_1.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/dev_1.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Contacts - Web Services<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-13" data-type="application">
-						<a href="img/work/dev_2.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/dev_2.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Contacts - Web Services<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-14" data-type="application">
-						<a href="img/work/dev_3.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/dev_3.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>DocINT - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-15" data-type="portal">
-						<a href="img/work/portal_0.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_0.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Pai Accountancy LLP - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-16" data-type="portal">
-						<a href="img/work/portal_1.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_1.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>iMADA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-17" data-type="portal">
-						<a href="img/work/portal_2.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_2.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Medical Equipment - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-18" data-type="portal">
-						<a href="img/work/portal_3.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_3.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Authenex - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-19" data-type="portal">
-						<a href="img/work/portal_4.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_4.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>DIY Metel Pallet - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-20" data-type="portal">
-						<a href="img/work/portal_5.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_5.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-21" data-type="portal">
-						<a href="img/work/portal_6.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_6.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-22" data-type="portal">
-						<a href="img/work/portal_7.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_7.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-23" data-type="portal">
-						<a href="img/work/portal_8.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_8.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-24" data-type="portal">
-						<a href="img/work/portal_9.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_9.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-25" data-type="portal">
-						<a href="img/work/portal_10.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_10.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-26" data-type="portal">
-						<a href="img/work/portal_11.jpg" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_11.jpg" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-27" data-type="portal">
-						<a href="img/work/portal_12.jpg" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_12.jpg" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>UNIDYNA - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-28" data-type="portal">
-						<a href="img/work/portal_13.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_13.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>E-Liver - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>		
-					<li class="item" data-id="id-29" data-type="portal">
-						<a href="img/work/portal_14.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_14.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>E-Liver - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-30" data-type="portal">
-						<a href="img/work/portal_15.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_15.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>F2Ware - Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-31" data-type="portal">
-						<a href="img/work/portal_16.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/portal_16.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Ginseng Gruel- Web Development<br>
-							<span class="ss_text">Web Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-32" data-type="app">
-						<a href="img/work/app_0.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_0.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Authenex iphone OTP<br>
-							<span class="ss_text">App Design</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-33" data-type="app">
-						<a href="img/work/app_1.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_1.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Authenex iphone OTP<br>
-							<span class="ss_text">App Design</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-34" data-type="app">
-						<a href="img/work/app_2.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_2.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Authenex iphone OTP<br>
-							<span class="ss_text">App Design</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-35" data-type="app">
-						<a href="img/work/app_3.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_3.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Bergman<br>
-							<span class="ss_text">App Design</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-36" data-type="app">
-						<a href="img/work/app_4.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_4.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Bergman<br>
-							<span class="ss_text">App Design</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-37" data-type="app">
-						<a href="img/work/app_5.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_5.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Excelent<br>
-							<span class="ss_text">App Design / Development</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-38" data-type="app">
-						<a href="img/work/app_6.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_6.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Excelent<br>
-							<span class="ss_text">App Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-39" data-type="app">
-						<a href="img/work/app_7.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/app_7.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Excelent<br>
-							<span class="ss_text">App Design / Development</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-42" data-type="card">
-						<a href="img/work/card_2.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/card_2.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>OTP Card<br>
-							<span class="ss_text">Card Design</span>
-						</p>
-					</li>
-					<li class="item" data-id="id-44" data-type="card">
-						<a href="img/work/card_4.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/card_4.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>OTP Card<br>
-							<span class="ss_text">Card Design</span>
-						</p>
-					</li>
-					
-					<li class="item" data-id="id-46" data-type="print">
-						<a href="img/work/print_1.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/print_1.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Poster<br>
-							<span class="ss_text">Poster Design</span>
-						</p>
-					</li>	
-					<li class="item" data-id="id-47" data-type="print">
-						<a href="img/work/print_2.png" rel="prettyPhoto[portfolio]">
-						<img src="img/work/print_2.png" class="ss" width="280" height="180" alt=""></a>
-						<div class="ss_shadow"></div>
-						<p>Poster<br>
-							<span class="ss_text">Poster Design</span>
-						</p>
-					</li>						
-				</ul>
-			</div>
-	</div>
-</div>
-<div class="work_bg_bottom"></div>
-<div id="services">
-	<div class="container_16">
-		<div class="subheader">
-			<div class="subheader_line"></div><h2>services</h2><div class="subheader_line"></div>
-		</div>
-		<div class="clear"></div>
-		<div class="serv_icons">
-			<div class="grid_8">
-				<div class="serv_icon1"></div>
-				<h3>design</h3>
-				<p>We offer a variety of services, such as visual design and user interface. We provide professional design services from websites to apps, printings, and cards.</p>
-			</div>
-			<div class="grid_8">
-				<div class="serv_icon2"></div>
-				<h3>development</h3>
-				<p>We provide professional front-end and back-end development services, including website application programs, enterprise internal information system, company official websites, and so on.</p>
-			</div>		
-		</div>		
-	</div>
-</div>
-<div class="services_bg_bottom"></div>
-<div id="about">
-	<div class="container_16">
-		<div class="subheader">
-			<div class="subheader_line"></div><h2>about</h2><div class="subheader_line"></div>
-		</div>
-	<div class="grid_5">
-		<div class="about_pic"></div>
-	</div>
-	<div class="grid_6">
-			<div class="about_copy">
-			<h4>We Are</h4>
-			<p>Familiar with the HTML5 standard and responsive design, so that you would have perfect browsing experience of your content that is on any handheld device.
-			</p>
-			<p>
-We are the most professional development team with abundant experience in the field of development and operation, helping our customers to convert their ideas into websites efficiently, and be at the leading position.
-			</p>
-			<p>
-Are there any ideas you want to realize? Would you like to improve your internet career to the next scale? We offer services of “website development” and “professional consulting”. Contact us today!</p>
-		</div>
-	</div>
-	<div class="grid_5">
-		<div class="skills">
-			<h4>Skills</h4>
-			<ul>
-				<li><div class="skill1"><p>Photoshop</p></div></li>
-				<li><div class="skill2"><p>Illustrator</p></div></li>
-				<li><div class="skill3"><p>HTML/CSS</p></div></li>
-				<li><div class="skill4"><p>Javascript</p></div></li>
-				<li><div class="skill5"><p>Python</p></div></li>
-				<li><div class="skill6"><p>Django</p></div></li>
-			</ul>
-		</div>
-	</div>
-	</div>
-</div>
-<div class="about_bg_bottom"></div>
-<div id="contact">
-	<div class="container_16">
-		<div class="subheader">
-			<div class="subheader_line"></div><h2>contact</h2><div class="subheader_line"></div>
-		</div>
-		<div class="grid_11">
-			<div class="contact_form">
-				<h4>Get in touch</h4>
-				<form id="cont_form" method="post" action="http://docs.google.com/forms/d/161Gu-GgaySzV9fapWxHi8WGHcCxFIeNLD_AoDxTfmAs/formResponse">
-					<div class="element">
-						<input type="text" name="entry.199363611" id="entry_199363611" class="text name" placeholder="Name" value="" onfocus="this.value = this.value==&#39;Name&#39;?&#39;&#39;:this.value;" onblur="this.value = this.value==&#39;&#39;?&#39;Name&#39;:this.value;">
-					</div>
-					<div class="element">
-						<input type="text" name="entry.424810746" id="entry_424810746" class="text email" value="" placeholder="Email" onfocus="this.value = this.value==&#39;Email&#39;?&#39;&#39;:this.value;" onblur="this.value = this.value==&#39;&#39;?&#39;Email&#39;:this.value;">
-					</div>
-					<div class="element">
-						<textarea name="entry.2114441792" id="entry_2114441792" class="text textarea" onfocus="this.value = this.value==&#39;Message&#39;?&#39;&#39;:this.value;" onblur="this.value = this.value==&#39;&#39;?&#39;Message&#39;:this.value;" placeholder="Message"></textarea>
-					</div>
-					<div class="element">
-						<input type="submit" id="submit" value="send" class="submit-button">
-					</div>
-				</form>				
-			</div>
-		</div>
-		<div class="grid_5">
-			<div class="contact_info">
-				<h4>Contact Information</h4>
-				<div class="grid_4 alpha">
-					<p><img src="img/icn_mail.png" alt=""> info@insowe.com</p>
+				</div>
+				<div id="insoweLightBoxWork" class="inner work">
+					<img v-bind:src="'img/work/'+lightBox.img.imgName" v-bind:alt="lightBox.img.workName">
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="contact_bg_bottom"></div>
-<footer>
-	<p>&copy; 2014 All rights reserved</p>
+
+        <footer id="footer">
+	<p>&copy; <span class="yearString"></span> All rights reserved</p>
 </footer>
+    </div>
+
+    <!-- Script -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.2.1/vue.min.js"></script>
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+    <script type="text/javascript" src="//tech.insowe.com/InsoweHome/js/script.js"></script>
+    <script>
+        var app;
+        var ie = getIEVersion();
+        app = new App({ie: ie});
+        app.init();
+        function getIEVersion() {
+            var rv = -1;
+            if (navigator.appName == 'Microsoft Internet Explorer') {
+                var ua = navigator.userAgent;
+                var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                if (re.exec(ua) != null)
+                    rv = parseFloat(RegExp.$1);
+            } else if (navigator.appName == 'Netscape') {
+                var ua = navigator.userAgent;
+                var re = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})"); //for IE 11
+                if (re.exec(ua) != null)
+                    rv = parseFloat(RegExp.$1);
+            }
+            return rv;
+        }
+    </script>
+    
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+	<script>
+        var page;
+        var vals = {
+        	lang: app.getQuery('lang')==''?'tw':app.getQuery('lang'),
+        	ie: ie
+        }
+        $(document).ready(function() {
+            page = new Index(vals);
+            page.init();
+        });
+    </script>
+
+    <!-- /Script -->
 </body>
 </html>

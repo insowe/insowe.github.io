@@ -1,0 +1,176 @@
+{
+	"category": {
+			"en": ["All", "Design", "System", "F2E"],
+			"tw": ["全部", "設計", "系統", "前端"]
+		},
+	"work":[{
+			"name": "ARTISTRY 2017 Mothersday",
+			"url": "https://tech.insowe.com/2017mothersday4/index.html",
+			"tag": {
+				"en": ["Design", "F2E"],
+				"tw": ["設計", "前端"]
+			},
+			"img": "s3_work1.png",
+			"bigImg": ""
+		},
+		{
+			"name": "SHADOW-FLY",
+			"url": "https://tech.insowe.com/4914/",
+			"tag": {
+				"en": ["Design", "F2E"],
+				"tw": ["設計", "前端"]
+			},
+			"img": "s3_work2.png",
+			"bigImg": ""
+		},
+		{
+			"name": "AcoMo-Care",
+			"url": "https://tech.insowe.com/AcomoBaby/index.html",
+			"tag": {
+				"en": ["Design", "F2E"],
+				"tw": ["設計", "前端"]
+			},
+			"img": "s3_work3.png",
+			"bigImg": ""
+		},
+		{
+			"name": "Amway Air Purifier",
+			"url": "https://tech.insowe.com/Amway_AirPurifier/index.html",
+			"tag": {
+				"en": ["Design", "F2E"],
+				"tw": ["設計", "前端"]
+			},
+			"img": "s3_work4.png",
+			"bigImg": ""
+		},
+		{
+			"name": "MirrorFiction",
+			"url": "https://www.mirrorfiction.com/",
+			"tag": {
+				"en": ["System", "F2E"],
+				"tw": ["系統", "前端"]
+			},
+			"img": "s3_work5.png",
+			"bigImg": ""
+		},
+		{
+			"name": "Vivotek",
+			"url": "https://www.vivotek.com/",
+			"tag": {
+				"en": ["System", "F2E"],
+				"tw": ["系統", "前端"]
+			},
+			"img": "s3_work6.png",
+			"bigImg": ""
+		},
+		{
+			"name": "HTML5 Game",
+			"url": "http://merrychristmas2016.insowe.com/",
+			"tag": {
+				"en": ["F2E"],
+				"tw": ["前端"]
+			},
+			"img": "s3_work7.png",
+			"bigImg": ""
+		},
+		{
+			"name": "Aetek",
+			"url": "http://www.aetektec.com/",
+			"tag": {
+				"en": ["Design", "System", "F2E"],
+				"tw": ["設計", "系統", "前端"]
+			},
+			"img": "s3_work8.png"
+		},
+		{
+			"name": "ASUS ROG Series",
+			"url": "https://www.asus.com/us/Laptops/ASUS-TUF-Gaming-FX705/",
+			"tag": {
+				"en": ["Design", "F2E"],
+				"tw": ["設計", "前端"]
+			},
+			"img": "s3_work9.png",
+			"bigImg": ""
+		},
+		{
+			"name": "線上客製化糖果",
+			"url": "http://loveeva.my-life01.net/shop123/CustomizeMyCandy/?pid=P151222003705",
+			"tag": {
+				"en": ["Design", "System", "F2E"],
+				"tw": ["設計", "系統", "前端"]
+			},
+			"img": "s3_work10.png",
+			"bigImg": ""
+		},
+		{
+			"name": "CreactiveBaby",
+			"url": "",
+			"tag": {
+				"en": ["Design"],
+				"tw": ["設計"]
+			},
+			"img": "s3_work11.png",
+			"bigImg": "work11.png"
+		},
+		{
+			"name": "SpotCam Design",
+			"url": "",
+			"tag": {
+				"en": ["Design"],
+				"tw": ["設計"]
+			},
+			"img": "s3_work12.png",
+			"bigImg": "work12.png"
+		},
+		{
+			"name": "SpotCam Design",
+			"url": "",
+			"tag": {
+				"en": ["Design"],
+				"tw": ["設計"]
+			},
+			"img": "s3_work13.png",
+			"bigImg": "work13.png"
+		},
+		{
+			"name": "ASUS",
+			"url": "",
+			"tag": {
+				"en": ["Design"],
+				"tw": ["設計"]
+			},
+			"img": "s3_work14.png",
+			"bigImg": "work14.png"
+		},
+		{
+			"name": "CreactiveBaby",
+			"url": "",
+			"tag": {
+				"en": ["Design"],
+				"tw": ["設計"]
+			},
+			"img": "s3_work15.png",
+			"bigImg": "work15.png"
+		},
+		{
+			"name": "SpotCam Design",
+			"url": "",
+			"tag": {
+				"en": ["Design"],
+				"tw": ["設計"]
+			},
+			"img": "s3_work16.png",
+			"bigImg": "work16.png"
+		},
+		{
+			"name": "ASUSmZenBook",
+			"url": "https://www.asus.com/Laptops/ASUS-ZenBook-UX303UA/",
+			"tag": {
+				"en": ["Design", "F2E"],
+				"tw": ["設計", "前端"]
+			},
+			"img": "s3_work17.png",
+			"bigImg": ""
+		}
+	] 	
+}
