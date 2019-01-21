@@ -9,7 +9,6 @@ var App = /** @class */ (function () {
         $('.yearString').text(year);
         this.langCode = this.getQuery('lang') == '' ? 'tw' : this.getQuery('lang');
         this.getTranslate(this.langCode);
-        console.log(this.vals['ie']);
         if (this.vals['ie'] == 11) {
             $('html').css({
                 'overflow': 'hidden',
@@ -137,7 +136,6 @@ var Index = /** @class */ (function () {
                 swiper.on('slideChange', function () {
                     $('.phoneInner').removeClass('active');
                     $('.phoneInner')[swiper.realIndex].classList.add("active");
-                    //console.log( $('.phoneInner')[swiper.realIndex]);
                 });
             }, 300);
         });
