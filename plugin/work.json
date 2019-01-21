@@ -5,7 +5,7 @@
 		},
 	"work":[{
 			"name": "ARTISTRY 2017 Mothersday",
-			"url": "//tech.insowe.com/2017mothersday4/index.html",
+			"url": "https://tech.insowe.com/2017mothersday4/index.html",
 			"tag": {
 				"en": ["Design", "F2E"],
 				"tw": ["設計", "前端"]
@@ -15,7 +15,7 @@
 		},
 		{
 			"name": "SHADOW-FLY",
-			"url": "//tech.insowe.com/4914/",
+			"url": "https://tech.insowe.com/4914/",
 			"tag": {
 				"en": ["Design", "F2E"],
 				"tw": ["設計", "前端"]
@@ -25,7 +25,7 @@
 		},
 		{
 			"name": "AcoMo-Care",
-			"url": "//tech.insowe.com/AcomoBaby/index.html",
+			"url": "https://tech.insowe.com/AcomoBaby/index.html",
 			"tag": {
 				"en": ["Design", "F2E"],
 				"tw": ["設計", "前端"]
@@ -35,7 +35,7 @@
 		},
 		{
 			"name": "Amway Air Purifier",
-			"url": "//tech.insowe.com/Amway_AirPurifier/index.html",
+			"url": "https://tech.insowe.com/Amway_AirPurifier/index.html",
 			"tag": {
 				"en": ["Design", "F2E"],
 				"tw": ["設計", "前端"]
@@ -45,7 +45,7 @@
 		},
 		{
 			"name": "MirrorFiction",
-			"url": "//www.mirrorfiction.com/",
+			"url": "https://www.mirrorfiction.com/",
 			"tag": {
 				"en": ["System", "F2E"],
 				"tw": ["系統", "前端"]
@@ -55,7 +55,7 @@
 		},
 		{
 			"name": "Vivotek",
-			"url": "//www.vivotek.com/",
+			"url": "https://www.vivotek.com/",
 			"tag": {
 				"en": ["System", "F2E"],
 				"tw": ["系統", "前端"]
@@ -65,7 +65,7 @@
 		},
 		{
 			"name": "HTML5 Game",
-			"url": "//merrychristmas2016.insowe.com/",
+			"url": "http://merrychristmas2016.insowe.com/",
 			"tag": {
 				"en": ["F2E"],
 				"tw": ["前端"]
@@ -75,7 +75,7 @@
 		},
 		{
 			"name": "Aetek",
-			"url": "//www.aetektec.com/",
+			"url": "http://www.aetektec.com/",
 			"tag": {
 				"en": ["Design", "System", "F2E"],
 				"tw": ["設計", "系統", "前端"]
@@ -84,7 +84,7 @@
 		},
 		{
 			"name": "ASUS ROG Series",
-			"url": "//www.asus.com/us/Laptops/ASUS-TUF-Gaming-FX705/",
+			"url": "https://www.asus.com/us/Laptops/ASUS-TUF-Gaming-FX705/",
 			"tag": {
 				"en": ["Design", "F2E"],
 				"tw": ["設計", "前端"]
@@ -94,7 +94,7 @@
 		},
 		{
 			"name": "線上客製化糖果",
-			"url": "//loveeva.my-life01.net/shop123/CustomizeMyCandy/?pid=P151222003705",
+			"url": "http://loveeva.my-life01.net/shop123/CustomizeMyCandy/?pid=P151222003705",
 			"tag": {
 				"en": ["Design", "System", "F2E"],
 				"tw": ["設計", "系統", "前端"]
@@ -164,7 +164,7 @@
 		},
 		{
 			"name": "ASUSmZenBook",
-			"url": "//www.asus.com/Laptops/ASUS-ZenBook-UX303UA/",
+			"url": "https://www.asus.com/Laptops/ASUS-ZenBook-UX303UA/",
 			"tag": {
 				"en": ["Design", "F2E"],
 				"tw": ["設計", "前端"]
