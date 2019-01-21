@@ -312,7 +312,7 @@
 					</div>
 					<p class="subTitle" tkey="insowe23">get in touch</p>
 					<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="this.onload=function(){page.contactResult()}"></iframe>
-					<form method="post" action="http://docs.google.com/forms/d/161Gu-GgaySzV9fapWxHi8WGHcCxFIeNLD_AoDxTfmAs/formResponse" target="hidden_iframe">
+					<form method="post" action="https://docs.google.com/forms/d/161Gu-GgaySzV9fapWxHi8WGHcCxFIeNLD_AoDxTfmAs/formResponse" target="hidden_iframe">
 						<div class="left">
 							<input class="userName" name="entry.199363611" id="entry_199363611" type="text" placeholder="Name">
 							<input class="userMail" name="entry.424810746" id="entry_424810746" type="email" placeholder="Email">
@@ -339,7 +339,7 @@
 					
 				</div>
 				<div id="insoweLightBoxWork" class="inner work">
-					<img v-bind:src="'img/work/'+lightBox.img.imgName" v-bind:alt="lightBox.img.workName">
+					<img v-bind:src="lightBox.img.imgName==''?'':'img/work/'+lightBox.img.imgName" v-bind:alt="lightBox.img.workName">
 				</div>
 			</div>
 		</div>
