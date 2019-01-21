@@ -141,7 +141,6 @@ var Index = /** @class */ (function () {
                 });
             }, 300);
         });
-        console.log(this.vals['ie']);
         if (this.vals['ie'] != 11) {
             $(window).on('scroll', function () {
                 _this.checkSectionPos();
