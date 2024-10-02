@@ -1,105 +1,230 @@
 {
 	"category": {
-			"en": ["All", "Design", "System", "F2E"],
-			"tw": ["全部", "設計", "系統", "前端"]
+			"en": ["All", "Technology", "System", "Design", "F2E"],
+			"tw": ["全部", "技術研發", "系統平台", "視覺設計", "數位互動"]
 		},
-	"work":[{
+	"work":[
+		{
+			"name": "PowerCable",
+			"url": "",
+			"tag": {
+				"en": ["Technology"],
+				"tw": ["技術研發"]
+			},
+			"img": "s3_work18.png",
+			"bigImg": "",
+			"description": {
+				"en":"System for Analyzing Security Vulnerabilities in Hardware Supply Chains. This system offers in-depth analysis of security threats and vulnerabilities in hardware components, providing tailored remediation recommendations.",
+				"tw":"硬體供應鏈安全威脅漏洞分析系統。提供硬體開發商或資安顧問，硬體元件資安威脅漏洞分析，並提供修補建議。"
+			}
+		},
+		{
+			"name": "區塊證",
+			"url": "",
+			"tag": {
+				"en": ["Technology"],
+				"tw": ["技術研發"]
+			},
+			"img": "s3_work19.png",
+			"bigImg": "",
+			"description": {
+				"en":"Building a private blockchain for clients using the ERC20 protocol to implement a transaction point clearing mechanism.",
+				"tw":"使用ERC20協定，為客戶架設私有鏈作為交易點數清算機制。"
+			}
+		},
+		{
+			"name": "MustDa",
+			"url": "",
+			"tag": {
+				"en": ["Technology"],
+				"tw": ["技術研發"]
+			},
+			"img": "s3_work20.png",
+			"bigImg": "",
+			"description": {
+				"en":"Offering integrated hardware and software services for developing AI-driven voice recognition systems focused on Chinese language applications.",
+				"tw":"以中文垂直領域之AI語音辨識系統發展的軟硬體整合服務。"
+			}
+		},
+		{
+			"name": "凸搜",
+			"url": "",
+			"tag": {
+				"en": ["Technology"],
+				"tw": ["技術研發"]
+			},
+			"img": "s3_work21.png",
+			"bigImg": "",
+			"description": {
+				"en":"Offers AI-powered image search capabilities, including reverse image search, text-to-image search, and image-to-text search.",
+				"tw":"提供AI搜圖功能，可以圖搜圖、以文搜圖、以圖搜文等圖像識別查詢功能。"
+			}
+		},
+		{
+			"name": "4CNC",
+			"url": "",
+			"tag": {
+				"en": ["Technology"],
+				"tw": ["技術研發"]
+			},
+			"img": "s3_work22.png",
+			"bigImg": "",
+			"description": {
+				"en":"Empowering the manufacturing industry with a transparent and efficient CNC machining tool supply platform that offers easy tool testing and streamlined ordering processes.",
+				"tw":"CNC加工廠刀具零售供應平台，打破過往報價不透明及加工參數不明確的既有市場機制，提供加工業更方便的刀具測試及下單流程。"
+			}
+		},
+		{
+			"name": "策略雲",
+			"url": "",
+			"tag": {
+				"en": ["Technology"],
+				"tw": ["技術研發"]
+			},
+			"img": "s3_work23.png",
+			"bigImg": "",
+			"description": {
+				"en":"Backtesting service with a subscription model. A subscription-based platform that provides historical market data for users to input and define their own trading strategies for backtesting.",
+				"tw":"股票回測系統。訂閱制服務，使用過往股票市場交易資料，讓使用者自行輸入和訂定股票交易邏輯進行回測。"
+			}
+		},
+		{
+			"name": "樂租",
+			"url": "",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work24.jpg",
+			"bigImg": ""
+		},
+		{
+			"name": "apex",
+			"url": "",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work25.jpg",
+			"bigImg": ""
+		},
+		{
+			"name": "鏡",
+			"url": "//www.mirrorfiction.com/",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work5.png"
+		},
+		{
+			"name": "CCC",
+			"url": "//www.creative-comic.tw/zh/",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work26.jpg",
+			"bigImg": ""
+		},
+		{
+			"name": "漫畫星/文學星",
+			"url": "",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work27.jpg",
+			"bigImg": ""
+		},
+		{
+			"name": "CxC",
+			"url": "//cxc.today/zh/",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work28.jpg",
+			"bigImg": ""
+		},
+		{
+			"name": "蓋亞",
+			"url": "//www.gaeabooks.com.tw/",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work29.jpg",
+			"bigImg": ""
+		},
+		{
+			"name": "黑熊",
+			"url": "//kuma-academy.org/",
+			"tag": {
+				"en": ["System"],
+				"tw": ["系統平台"]
+			},
+			"img": "s3_work30.jpg",
+			"bigImg": ""
+		},
+		{
 			"name": "ARTISTRY 2017 Mothersday",
-			"url": "//tech.insowe.com/2017mothersday4/index.html",
+			"url": "",
 			"tag": {
 				"en": ["Design", "F2E"],
-				"tw": ["設計", "前端"]
+				"tw": ["視覺設計", "數位互動"]
 			},
 			"img": "s3_work1.png",
 			"bigImg": ""
 		},
 		{
 			"name": "SHADOW-FLY",
-			"url": "//tech.insowe.com/4914/",
+			"url": "",
 			"tag": {
 				"en": ["Design", "F2E"],
-				"tw": ["設計", "前端"]
+				"tw": ["視覺設計", "數位互動"]
 			},
 			"img": "s3_work2.png",
 			"bigImg": ""
 		},
 		{
 			"name": "AcoMo-Care",
-			"url": "//tech.insowe.com/AcomoBaby/index.html",
+			"url": "",
 			"tag": {
 				"en": ["Design", "F2E"],
-				"tw": ["設計", "前端"]
+				"tw": ["視覺設計", "數位互動"]
 			},
 			"img": "s3_work3.png",
 			"bigImg": ""
 		},
 		{
 			"name": "Amway Air Purifier",
-			"url": "//tech.insowe.com/Amway_AirPurifier/index.html",
+			"url": "",
 			"tag": {
 				"en": ["Design", "F2E"],
-				"tw": ["設計", "前端"]
+				"tw": ["視覺設計", "數位互動"]
 			},
 			"img": "s3_work4.png",
 			"bigImg": ""
 		},
 		{
-			"name": "MirrorFiction",
-			"url": "//www.mirrorfiction.com/",
-			"tag": {
-				"en": ["System", "F2E"],
-				"tw": ["系統", "前端"]
-			},
-			"img": "s3_work5.png",
-			"bigImg": ""
-		},
-		{
-			"name": "Vivotek",
-			"url": "//www.vivotek.com/",
-			"tag": {
-				"en": ["System", "F2E"],
-				"tw": ["系統", "前端"]
-			},
-			"img": "s3_work6.png",
-			"bigImg": ""
-		},
-		{
 			"name": "HTML5 Game",
-			"url": "//merrychristmas2016.insowe.com/",
+			"url": "",
 			"tag": {
 				"en": ["F2E"],
-				"tw": ["前端"]
+				"tw": ["數位互動"]
 			},
 			"img": "s3_work7.png",
 			"bigImg": ""
-		},
-		{
-			"name": "Aetek",
-			"url": "//www.aetektec.com/",
-			"tag": {
-				"en": ["Design", "System", "F2E"],
-				"tw": ["設計", "系統", "前端"]
-			},
-			"img": "s3_work8.png"
 		},
 		{
 			"name": "ASUS ROG Series",
 			"url": "//www.asus.com/us/Laptops/ASUS-TUF-Gaming-FX705/",
 			"tag": {
 				"en": ["Design", "F2E"],
-				"tw": ["設計", "前端"]
+				"tw": ["視覺設計", "數位互動"]
 			},
 			"img": "s3_work9.png",
-			"bigImg": ""
-		},
-		{
-			"name": "線上客製化糖果",
-			"url": "//loveeva.my-life01.net/shop123/CustomizeMyCandy/?pid=P151222003705",
-			"tag": {
-				"en": ["Design", "System", "F2E"],
-				"tw": ["設計", "系統", "前端"]
-			},
-			"img": "s3_work10.png",
 			"bigImg": ""
 		},
 		{
@@ -107,7 +232,7 @@
 			"url": "",
 			"tag": {
 				"en": ["Design"],
-				"tw": ["設計"]
+				"tw": ["視覺設計"]
 			},
 			"img": "s3_work11.png",
 			"bigImg": "work11.png"
@@ -117,7 +242,7 @@
 			"url": "",
 			"tag": {
 				"en": ["Design"],
-				"tw": ["設計"]
+				"tw": ["視覺設計"]
 			},
 			"img": "s3_work12.png",
 			"bigImg": "work12.png"
@@ -127,7 +252,7 @@
 			"url": "",
 			"tag": {
 				"en": ["Design"],
-				"tw": ["設計"]
+				"tw": ["視覺設計"]
 			},
 			"img": "s3_work13.png",
 			"bigImg": "work13.png"
@@ -137,7 +262,7 @@
 			"url": "",
 			"tag": {
 				"en": ["Design"],
-				"tw": ["設計"]
+				"tw": ["視覺設計"]
 			},
 			"img": "s3_work14.png",
 			"bigImg": "work14.png"
@@ -147,7 +272,7 @@
 			"url": "",
 			"tag": {
 				"en": ["Design"],
-				"tw": ["設計"]
+				"tw": ["視覺設計"]
 			},
 			"img": "s3_work15.png",
 			"bigImg": "work15.png"
@@ -157,17 +282,17 @@
 			"url": "",
 			"tag": {
 				"en": ["Design"],
-				"tw": ["設計"]
+				"tw": ["視覺設計"]
 			},
 			"img": "s3_work16.png",
 			"bigImg": "work16.png"
 		},
 		{
 			"name": "ASUSmZenBook",
-			"url": "//www.asus.com/Laptops/ASUS-ZenBook-UX303UA/",
+			"url": "",
 			"tag": {
 				"en": ["Design", "F2E"],
-				"tw": ["設計", "前端"]
+				"tw": ["視覺設計", "數位互動"]
 			},
 			"img": "s3_work17.png",
 			"bigImg": ""

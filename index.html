@@ -49,7 +49,7 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
 
-    <link rel="stylesheet" href="//www.insowe.com/css/style.css">
+  <link rel="stylesheet" href="//www.insowe.com/css/style.css">
     <!-- /Style -->
 
     <!-- IE hack -->
@@ -96,7 +96,7 @@
 			<div class="titleBox">
 				<img src="img/s1_subTitle.png" alt="盈碩數位" class="subTitle">
 				<img src="img/s1_title.png" alt="imsowe" class="title">
-				<h1 tkey="insowe1">網站・系統・設計</h1>
+				<h1 tkey="insowe1" v-bind:class="lang=='tw'?'':'en'">系統・技術・安全</h1>
 				<a href="javascript:;" class="scrollBtn"></a>
 			</div>
 			<div class="slider">
@@ -108,13 +108,13 @@
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="//mirrorfiction.com/" class="sliderBox" target="_blank">
-								<img src="img/s1_slider2.jpg" alt="MirrorFiction">
+							<a href="//www.aetektec.com/" class="sliderBox" target="_blank">
+								<img src="img/s1_slider3.jpg" alt="AETEK">
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="//www.aetektec.com/" class="sliderBox" target="_blank">
-								<img src="img/s1_slider3.jpg" alt="AETEK">
+							<a href="//mirrorfiction.com/" class="sliderBox" target="_blank">
+								<img src="img/s1_slider2.jpg" alt="MirrorFiction">
 							</a>
 						</div>
 					</div>
@@ -141,23 +141,46 @@
 			<section class="s2 interval">
 				<h2 class="insoweItem title"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe2">s</span><span tkey="insowe3">erivces</span></h2>
 				<div class="insoweItem block">
-					<div class="blockTitle"><h3 tkey="insowe4">Visual Design</h3></div>
+					<img src="img/s2_service1.jpg" alt="Web系統建置">
+					<div class="blockTitle"><h3 tkey="insowe25">Web系統建置</h3></div>
 					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
-						<p tkey="insowe5">From E-sports theme to parent-child theme; From graphic design to 3D modeling.<br/>We have diversified designed style and comprehensive design experience to meet all the needs and the spriit of brand.</p>
+						<p tkey="insowe26">配合企業資訊架構及資安政策，提供企業內外部系統客製化開發建置。</p>
 					</div>
-					<img src="img/s2_canvas.png" alt="canvas">
 				</div>
 				<div class="insoweItem block">
-					<div class="blockTitle"><h3 tkey="insowe6">Web development</h3></div>
+					<img src="img/s2_service2.jpg" alt="原生App應用開發">
+					<div class="blockTitle"><h3 tkey="insowe27">原生App應用開發</h3></div>
 					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
-						<p tkey="insowe7">We can customize the site according to the needs, whether it is web game, image website, e-commerce website, enterprise systems or various operating platforms.</p>
+						<p tkey="insowe28">使用原生系統開發 iOS 與 Android 雙平台 APP。</p>
 					</div>
-					<img src="img/s2_keyboard.png" alt="keyboard">
 				</div>
 				<div class="insoweItem block">	
-					<div class="blockTitle"><h3 tkey="insowe8">Information security</h3></div>
+					<img src="img/s2_service3.jpg" alt="各類系統平台開發">
+					<div class="blockTitle"><h3 tkey="insowe29">各類系統平台開發</h3></div>
 					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
-						<p tkey="insowe9">A security team led by a senior security expert, providing black and white box testing, penetration testing or a variety of offensive and defensive drills for you to protect customer information and enhance security.</p>
+						<p tkey="insowe30">無論電商一般零售、企業對企業、消費者對消費者、線上對線下、線上線下整合電商需求、企業/工廠內部管理流程平台等都能完整開發。</p>
+					</div>
+				</div>
+				<div class="insoweItem block">	
+					<img src="img/s2_service6.jpg" alt="第三方服務串接">
+					<div class="blockTitle"><h3 tkey="insowe43">第三方服務串接</h3></div>
+					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
+						<p tkey="insowe44">國內外金流、物流、簡訊、社群平台、第三方服務系統資料串接、雲端主機服務、區塊鏈、資安產品、行銷應用工具等整合開發。</p>
+					</div>
+				</div>
+				
+				<div class="insoweItem block">	
+					<img src="img/s2_service4.jpg" alt="技術委外研發">
+					<div class="blockTitle"><h3 tkey="insowe31">技術委外研發</h3></div>
+					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
+						<p tkey="insowe32">不管是現在最熱門的AI人工智慧、大數據分析還是區塊鏈技術，最流行的Chat bot工具或是推薦系統，最重要的資訊安全保護或者無線通訊領域。盈碩的研發團隊都能為您在有限的預算內打造第一版產品，讓有資金和想法的您不用自己籌備技術團隊就可以實現第一版技術。目前已實作：資安數據庫、AI語音辨識、AI影像辨識、區塊鏈交易、線上即時客服等相關產品。</p>
+					</div>
+				</div>
+				<div class="insoweItem block">	
+					<img src="img/s2_service5.jpg" alt="技術或專案諮詢">
+					<div class="blockTitle"><h3 tkey="insowe33">技術或專案諮詢</h3></div>
+					<div class="blockContent" v-bind:class="lang=='tw'?'blockContentTW':''">
+						<p tkey="insowe34">基於資安、金融、法規及企業營運獲利的思維，協助客戶收斂概念想法，提出有效可行的開發方案。</p>
 					</div>
 				</div>
 			</section>
@@ -173,19 +196,49 @@
 					<div class="workBox" data-mcs-theme="dark">
 						<div class="workWall">
 							<div class="work active" v-bind:class="setCategoryClass(work)" v-for="work in workData.work">
-								<img v-bind:src="'img/work/'+work.img" v-bind:alt="work.name">
-								<a v-bind:href="work.url==''?'javascript:page.setLightBoxImg(\''+work.bigImg+'\',\''+work.name+'\');':work.url" class="workMask" v-bind:target="work.url==''?'':'_blank'">
-									<div class="workInfo">
-										<p class="workTitle" v-text="work.name"></p>
-										<div class="workIcon">
-											<span class="fa-stack">
-											  <i class="far fa-circle fa-stack-2x"></i>
-											  <i class="fas fa-angle-right fa-stack-1x"></i>
-											</span>
+									<div v-if="work.tag.en[0] === 'Technology'" class="cardBox">
+										<div class="cardImg">
+											<img v-bind:src="'img/work/'+work.img" v-bind:alt="work.name">
 										</div>
-										<p class="categoryText" v-text="setCategoryName(work)"></p>
+										<div class="cardInfo" v-bind:class="lang=='tw'?'':'en'">
+											<div class="cardTitle">{{work.name}}</div>
+											<p>{{lang=='tw' ? work.description.tw : work.description.en}}</p>
+										</div>
 									</div>
-								</a>
+									<div v-else>
+										<img v-bind:src="'img/work/'+work.img" v-bind:alt="work.name">
+										<a v-bind:href="work.url" class="workMask" v-bind:target="'_blank'" v-if="work.url">
+											<div class="workInfo">
+												<p class="workTitle" v-text="work.name"></p>
+												<div class="workIcon">
+													<span class="fa-stack">
+														<i class="far fa-circle fa-stack-2x"></i>
+														<i class="fas fa-angle-right fa-stack-1x"></i>
+													</span>
+												</div>
+												<p class="categoryText" v-text="setCategoryName(work)"></p>
+											</div>
+										</a>
+										<a v-bind:href="'javascript:page.setLightBoxImg(\''+work.bigImg+'\',\''+work.name+'\');'" class="workMask" v-else-if="work.bigImg">
+											<div class="workInfo">
+												<p class="workTitle" v-text="work.name"></p>
+												<div class="workIcon">
+													<span class="fa-stack">
+														<i class="far fa-circle fa-stack-2x"></i>
+														<i class="fas fa-angle-right fa-stack-1x"></i>
+													</span>
+												</div>
+												<p class="categoryText" v-text="setCategoryName(work)"></p>
+											</div>
+										</a>
+										<div class="workMask" v-else>
+											<div class="workInfo">
+												<p class="workTitle" v-text="work.name"></p>
+												<p class="categoryText" v-text="setCategoryName(work)"></p>
+											</div>
+										</div>
+									</div>
+								</template>
 							</div>
 						</div>
 					</div>
@@ -202,12 +255,17 @@
 			<div class="right">
 				<h2 class="title" v-bind:class="lang=='tw'?'offsetT':''"><span v-bind:class="lang=='tw'?'normalG':'bigG'" tkey="insowe13">a</span><span tkey="insowe14">bout</span></h2>
 				<div class="block">
-					<div class="blockTitle"><h3 tkey="insowe15">we are</h3></div>
-					<p class="content" tkey="insowe16">Here, a group of young people, average age 28, decided to stay in their hometown Taiwan, Tainan.Use our expertise to serve all of Taiwan's customers and even overseas customers.This is the first step of INSOWE.</p>
+					<div class="blockTitle"><h3 tkey="insowe35">we are</h3></div>
+					<p class="content" tkey="insowe36">Here, a group of young people, average age 28, decided to stay in their hometown Taiwan, Tainan.Use our expertise to serve all of Taiwan's customers and even overseas customers.This is the first step of INSOWE.</p>
 					<br/>
-					<p class="content" tkey="insowe17">We have rich experience in website development to help clients effectively implement their ideas on their website.</p>
+					<div class="blockTitle"><h3 tkey="insowe37">we are</h3></div>
+					<p class="content" tkey="insowe38">We have rich experience in website development to help clients effectively implement their ideas on their website.</p>
 					<br/>
-					<p class="content" tkey="insowe18">Any ideas you want to achieve? Any needs you want? Contact us!</p>
+					<div class="blockTitle"><h3 tkey="insowe39">we are</h3></div>
+					<p class="content" tkey="insowe40">Any ideas you want to achieve? Any needs you want? Contact us!</p>
+					<br/>
+					<div class="blockTitle"><h3 tkey="insowe41">we are</h3></div>
+					<p class="content" tkey="insowe42">Any ideas you want to achieve? Any needs you want? Contact us!</p>
 				</div>
 			</div>
 		</section>
@@ -285,12 +343,6 @@
 					<p class="name">紙飛機</p>
 					<p class="job">Front-end Engineer</p>
 					<p class="saying">一為全，全為一</p>
-				</div>
-				<div class="insoweItem member">
-					<img src="img/s6_yang.png" alt="Yang" class="avatar">
-					<p class="name">小羊</p>
-					<p class="job">Back-end Engineer</p>
-					<p class="saying">要有夢想，即使遙遠</p>
 				</div>
 			</div>
 		</section>

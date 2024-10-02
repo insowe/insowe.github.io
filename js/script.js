@@ -105,6 +105,9 @@ var Index = /** @class */ (function () {
                     var temp = '';
                     $.each(work['tag']['en'], function (idx, ele) {
                         temp = temp + ele + ' ';
+                        if(ele === 'Technology'){
+                            temp += 'card ';
+                        }
                     });
                     return temp;
                 },
@@ -229,7 +232,7 @@ var Index = /** @class */ (function () {
         });
     };
     Index.prototype.setWork = function () {
-        var workWallWidth = $('.s3 .content .work').width() * Math.ceil($('.s3 .content .work.active').length / 2);
+        var workWallWidth = $('.s3 .content .work').width() * Math.ceil($('.s3 .content .work.active').length / 2) + 10;
         var workWallHeight = $('.s3 .content .work').width() * 2;
         $('.s3 .content .workWall').css({
             'width': workWallWidth,
